@@ -11,121 +11,82 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="noise" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="回到首頁">DOMMY<span>.</span>TSENG</a>
-    <button class="menu-toggle" type="button" aria-label="開啟選單" aria-expanded="false">
-      <span></span><span></span>
-    </button>
+    <a class="brand" href="#top"><span class="brand-mark">D</span> DOMMYTSENG</a>
     <nav class="site-nav" aria-label="主要導覽">
-      <a href="#about">關於我</a>
-      <a href="#interests">興趣</a>
-      <a href="#goals">學習目標</a>
-      <a href="#work">作品</a>
-      <a href="#contact">聯絡方式</a>
+      <a href="#about">關於我</a><a href="#interests">興趣</a><a href="#goals">學習目標</a><a href="#work">作品</a>
     </nav>
+    <a class="header-link" href="#contact">CONTACT <span>↗</span></a>
+    <button class="menu-toggle" type="button" aria-label="開啟選單" aria-expanded="false"><span></span><span></span></button>
   </header>
 
   <main id="top">
-    <section class="hero section">
+    <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">PORTFOLIO / 2026</p>
+        <p class="eyebrow"><i></i> PORTFOLIO / 2026</p>
         <h1>用資料與程式<br>創造<span>智慧的可能。</span></h1>
         <p class="intro">嗨，我是曾多米（Dommytseng），一位人工智慧系學生。喜歡從資料、演算法與程式中，發現能讓生活更好的解法。</p>
-        <a class="text-link" href="#work">瀏覽精選作品 <span>↓</span></a>
+        <a class="neon-button" href="#work">瀏覽精選作品 <span>↓</span></a>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="sun"></div>
-        <div class="shape shape-one"></div>
-        <div class="shape shape-two"></div>
-        <p>CREATE<br>WITH<br>CARE</p>
+      <div class="hero-terminal" aria-label="人工智慧系統視覺圖示">
+        <div class="terminal-bar"><span></span><span></span><span></span><p>DOMMY_AI.EXE</p></div>
+        <div class="metal-plate"><i></i> NEURAL CORE / 2026 <i></i></div>
+        <div class="orbital"><div class="ring ring-one"></div><div class="ring ring-two"></div><div class="core">AI</div><b class="signal signal-a"></b><b class="signal signal-b"></b><b class="signal signal-c"></b></div>
+        <p class="terminal-code">SYSTEM_READY<br><em>LEARNING_MODE: ON</em></p>
       </div>
+      <div class="hero-footer"><p>TAIPEI, TAIWAN <span>◆</span> 2026</p><a href="#about">SCROLL TO EXPLORE <span>↓</span></a></div>
     </section>
 
     <section class="section about" id="about">
-      <p class="section-label">01 / 關於我</p>
-      <div class="section-content about-grid">
-        <h2>觀察生活，<br>設計<span>剛剛好</span>的解答。</h2>
-        <div>
+      <div class="section-index"><span>01</span><p>關於我 / ABOUT</p></div>
+      <div class="about-layout">
+        <h2>讓複雜問題<br>擁有<span>清晰解答。</span></h2>
+        <div class="about-copy">
           <p>我相信人工智慧的價值，在於讓複雜的問題更容易被理解與解決。透過資料分析、程式設計與持續實作，把好奇心轉成可落地的成果。</p>
           <p>目前居住在台北，持續探索機器學習、資料科學與人機互動之間的各種可能。</p>
-          <div class="facts">
-            <div><strong>AI</strong><span>人工智慧學習</span></div>
-            <div><strong>03+</strong><span>實作專案</span></div>
-            <div><strong>∞</strong><span>保持好奇</span></div>
-          </div>
+          <div class="fact-grid"><div><strong>AI</strong><span>人工智慧學習</span></div><div><strong>03+</strong><span>實作專案</span></div><div><strong>∞</strong><span>保持好奇</span></div></div>
         </div>
       </div>
     </section>
 
     <section class="section interests" id="interests">
-      <p class="section-label">02 / 興趣</p>
-      <div class="section-content">
-        <h2>生活裡的<br><span>靈感收集器。</span></h2>
-        <div class="interest-list">
-          <article class="interest-item">
-            <span class="interest-number">01</span>
-            <div><h3>古典樂及管樂</h3><p>在旋律與演奏中，感受聲音細節帶來的不同情緒。</p></div>
-            <span class="arrow">↗</span>
-          </article>
-          <article class="interest-item">
-            <span class="interest-number">02</span>
-            <div><h3>各國流行樂</h3><p>透過不同語言與文化的流行音樂，探索世界各地的聲音。</p></div>
-            <span class="arrow">↗</span>
-          </article>
-          <article class="interest-item">
-            <span class="interest-number">03</span>
-            <div><h3>西西里咖啡</h3><p>享受檸檬香氣與咖啡交織的清爽平衡。</p></div>
-            <span class="arrow">↗</span>
-          </article>
-        </div>
+      <div class="section-index"><span>02</span><p>興趣 / INTERESTS</p></div>
+      <div class="interests-title"><h2>靈感也需要<br><span>離線輸入。</span></h2><p>生活裡的節奏、味道與聲音，是我最喜歡的資料集。</p></div>
+      <div class="interest-grid">
+        <article><span>01</span><i>♫</i><h3>古典樂及管樂</h3><p>在旋律與演奏中，感受聲音細節帶來的不同情緒。</p></article>
+        <article><span>02</span><i>◎</i><h3>各國流行樂</h3><p>透過不同語言與文化的流行音樂，探索世界各地的聲音。</p></article>
+        <article><span>03</span><i>◒</i><h3>西西里咖啡</h3><p>享受檸檬香氣與咖啡交織的清爽平衡。</p></article>
       </div>
     </section>
 
     <section class="section goals" id="goals">
-      <p class="section-label">03 / 我的學習目標</p>
-      <div class="section-content goals-grid">
-        <div>
-          <h2>持續學習，<br>讓模型走得<span>更遠。</span></h2>
-          <p>把每一次實驗，變成下一個智慧應用的養分。</p>
-        </div>
+      <div class="section-index"><span>03</span><p>我的學習目標 / GOALS</p></div>
+      <div class="goals-layout">
+        <div><h2>持續學習，<br>讓模型走得<span>更遠。</span></h2><p>把每一次實驗，變成下一個智慧應用的養分。</p></div>
         <ol class="goal-list">
-          <li><span>01</span><div><h3>深化機器學習能力</h3><p>從 Python 與資料處理開始，持續理解模型訓練與評估的方法。</p></div></li>
-          <li><span>02</span><div><h3>探索生成式 AI</h3><p>學習大型語言模型與生成式工具，思考它們如何協助解決真實需求。</p></div></li>
-          <li><span>03</span><div><h3>累積實作專案</h3><p>在每一次實驗與合作中，將人工智慧的想法轉化成具體成果。</p></div></li>
+          <li><span>01</span><div><h3>深化機器學習能力</h3><p>從 Python 與資料處理開始，持續理解模型訓練與評估的方法。</p></div><b>↘</b></li>
+          <li><span>02</span><div><h3>探索生成式 AI</h3><p>學習大型語言模型與生成式工具，思考它們如何協助解決真實需求。</p></div><b>↘</b></li>
+          <li><span>03</span><div><h3>累積實作專案</h3><p>在每一次實驗與合作中，將人工智慧的想法轉化成具體成果。</p></div><b>↘</b></li>
         </ol>
       </div>
     </section>
 
     <section class="section work" id="work">
-      <p class="section-label">04 / 作品</p>
-      <div class="section-content">
-        <div class="work-heading"><h2>近期精選</h2><a class="text-link" href="#contact">一起創造些什麼 <span>↗</span></a></div>
-        <div class="work-grid">
-          <article class="project project-large">
-            <div class="project-image image-luma"><span>LUMA<br>STUDIO</span><i></i></div>
-            <div class="project-meta"><div><h3>Luma Studio</h3><p>影像分類・機器學習</p></div><span>2026</span></div>
-          </article>
-          <article class="project">
-            <div class="project-image image-wander"><span>WANDER<br>MORE</span><i></i></div>
-            <div class="project-meta"><div><h3>Wander More</h3><p>旅遊推薦・資料分析</p></div><span>2026</span></div>
-          </article>
-          <article class="project">
-            <div class="project-image image-mori"><span>MORI</span><i></i></div>
-            <div class="project-meta"><div><h3>Mori Coffee</h3><p>消費預測・資料視覺化</p></div><span>2023</span></div>
-          </article>
-        </div>
+      <div class="section-index"><span>04</span><p>作品 / SELECTED WORK</p></div>
+      <div class="work-heading"><h2>近期精選</h2><a href="#contact">一起創造些什麼 <span>↗</span></a></div>
+      <div class="project-grid">
+        <article class="project project-wide"><div class="project-screen luma"><p>01 / IMAGE CLASSIFICATION</p><strong>LUMA<br>STUDIO</strong><i></i></div><div class="project-meta"><div><h3>Luma Studio</h3><p>影像分類・機器學習</p></div><span>2026 ↗</span></div></article>
+        <article class="project"><div class="project-screen wander"><p>02 / RECOMMENDATION</p><strong>WANDER<br>MORE</strong><i></i></div><div class="project-meta"><div><h3>Wander More</h3><p>旅遊推薦・資料分析</p></div><span>2026 ↗</span></div></article>
+        <article class="project"><div class="project-screen mori"><p>03 / FORECAST</p><strong>MORI</strong><i></i></div><div class="project-meta"><div><h3>Mori Coffee</h3><p>消費預測・資料視覺化</p></div><span>2023 ↗</span></div></article>
       </div>
     </section>
 
     <section class="contact" id="contact">
-      <p class="section-label">05 / 聯絡方式</p>
-      <p class="contact-kicker">有個想法正在醞釀嗎？</p>
-      <a class="contact-email" href="mailto:hello@dommytseng.design">一起聊聊<span>。</span></a>
-      <div class="contact-footer">
-        <p>© 2026 DOMMYTSENG</p>
-        <div><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></div>
-        <a href="#top">回到頂端 ↑</a>
-      </div>
+      <p class="contact-label">05 / 聯絡方式</p>
+      <p>有個想法正在醞釀嗎？</p>
+      <a href="mailto:hello@dommytseng.design">一起聊聊<span>。</span></a>
+      <footer><p>© 2026 DOMMYTSENG</p><div><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">INSTAGRAM ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN ↗</a></div><a href="#top">回到頂端 ↑</a></footer>
     </section>
   </main>
 
@@ -137,10 +98,8 @@
       toggle.classList.toggle('is-open', open);
       toggle.setAttribute('aria-expanded', open);
     });
-    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-      nav.classList.remove('is-open');
-      toggle.classList.remove('is-open');
-      toggle.setAttribute('aria-expanded', 'false');
+    nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+      nav.classList.remove('is-open'); toggle.classList.remove('is-open'); toggle.setAttribute('aria-expanded', 'false');
     }));
   </script>
 </body>
